@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary px-3">
+    <div class="container-fluid">
+        <div class="d-flex align-items-center gap-2">
+            <img src="logo.png" alt="Logo" height="40" />
+            <a href="index.html" class="btn btn-outline-light btn-sm">Home</a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="ms-auto">
+                <a href="contacts.html" class="btn btn-light btn-sm">Contact</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="container text-center mt-5">
+    <h3>TECHSAV</h3>
+    <p>Welcome to our webpage</p>
+    <button class="btn btn-primary btn-lg">Get Started!</button>
+    <hr>
+</div>
+
+<div class="container mt-5 mb-5">
+  <div id="cardCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#cardCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#cardCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#cardCarousel" data-bs-slide-to="2"></button>
+    </div>
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <div class="carousel-card">
+          <img src="ai.jpg" alt="AI">
+          <div class="carousel-overlay">
+            <h3>Artificial Intelligence</h3>
+            <p>Powering intelligent and adaptive systems.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="carousel-card">
+          <img src="tech.jpg" alt="Tech">
+          <div class="carousel-overlay">
+            <h3>Technology Services</h3>
+            <p>Web, mobile, and cloud development solutions.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="carousel-card">
+          <img src="inno.jpg" alt="Innovation">
+          <div class="carousel-overlay">
+            <h3>Innovation</h3>
+            <p>Turning ideas into scalable digital products.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev custom-control" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+      <span>&lsaquo;</span>
+    </button>
+
+    <button class="carousel-control-next custom-control" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+      <span>&rsaquo;</span>
+    </button>
+
+  </div>
+</div>
+
+
+<footer class="footer mt-auto">
+  <div class="container py-5">
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <h4 class="footer-brand">TechSav</h4>
+        <p class="footer-text">
+          Innovating digital platforms for the future.  
+          We build modern, scalable, and user-friendly solutions.
+        </p>
+      </div>
+
+      <div class="col-md-4">
+        <h6 class="footer-heading">Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <h6 class="footer-heading">Connect With Us</h6>
+        <div class="footer-socials">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="footer-divider">
+
+    <div class="text-center footer-bottom">
+      <p class="mb-0">
+        © 2025 <strong>Rey Cyrus Canao</strong>. All rights reserved.
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
